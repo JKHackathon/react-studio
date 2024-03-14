@@ -1,9 +1,39 @@
 /* Add styling for your page here */
 
 .App {
+}
 
+.BakeryContent {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .BakeryItem {
-  
+  /* Card */
+  width: 300px;
+  height: auto;
+  margin: 2%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.BakeryItemDetails {
+  padding: 5%;
+}
+
+.BakeryItem img {
+  width: 100%;
+}
+
+.BakeryItem:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Cart {
+  background-color: lightblue;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  border-radius: 10px;
+  padding: 1%;
 }
